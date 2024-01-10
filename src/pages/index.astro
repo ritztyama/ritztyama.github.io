@@ -20,52 +20,54 @@ const last_posts = posts.slice(0, 3);
       <ul>
         <li>
           <a href="https://github.com/ritztyama/ritztyama.github.io" target="_blank">
-            - GitHub
+            - GitHub(https://github.com/ritztyama/ritztyama.github.io)
           </a>
         </li>
         <li>
           <a href="https://scratch.mit.edu/users/ritztyama" target="_blank">
-            - Scratch
+            - Scratch(https://scratch.mit.edu/users/ritztyama)
           </a>
         </li>
       </ul>
 
     </div>
-    <div class="mt-8">
-      <a class="btn" href="https://twitter.com/ritztyama" target="_blank"> Let's connect!</a>
-      <a href="https://github.com/ritztyama" target="_blank" class="btn btn-outline ml-5">
-        Get This template
-      </a>
+  </div>
+
+  <BaseLayout title = "Projects" sideBarActiveItemID="projects">
+    <div>
+      <div class="text-3xl w-full font-bold mb-5">Projects Introduction</div>
     </div>
-  </div>
-
-  <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects</div>
-  </div>
-
-  <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
-
+  
+    <HorizontalCard
+      title="[Scratch] お餅つき"
+      img="/mochi pounding.png"
+      desc="2024年のお正月🎍をテーマに作りました。"
+      url="https://scratch.mit.edu/projects/902813855/"
+      badge="NEW"
+    />
+    <div class="divider my-0"></div>
+    <HorizontalCard
+      title="[Scratch] 魚バクバクゲーム"
+      img="/Fisch eat game.png"
+      desc="大きな魚🐠から逃げるゲームです。"
+      url="https://scratch.mit.edu/projects/821459660/"
+      badge="old"
+    />
+    <HorizontalCard
+      title="[Unity] action"
+      img="/action game.png"
+      desc="<English> This game also does not have a URL Please access it through GitHub.\
+      <日本語>このゲームはURLがありません🙏githubの方からアクセスしてください。"
+      url="#"
+    />
+    <div class="divider my-0"></div>
+    <HorizontalCard
+      title="[godot Engin] My cath"
+      img="/My cath.png"
+      desc="<English> This game also does  not have a URL Please access it through GitHub.\
+      <日本語>このゲームもURLがありません🙏githubの方からアクセスしてください。"
+      url="#"
+    />
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
   </div>
